@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hang Man</title>
+    <link rel="stylesheet" href="css/global.css" />
+  </head>
+  <body>
+    <div class="tries"></div>
+    <div class="hang-man">
+      <div class="game-board">
+        <div class="stick"></div>
+        <div class="stand"></div>
+        <div class="stick-rope"></div>
+        <div class="rope"></div>
+        <div class="head"></div>
+        <div class="body"></div>
+        <div class="left-hand"></div>
+        <div class="right-hand"></div>
+        <div class="left-leg"></div>
+        <div class="right-leg"></div>
+      </div>
+    </div>
+    <div class="word">
+      <div class="word-guess">_ _ _ _ _</div>
+    </div>
+    <div class="letter">
+      <div class="guess-letter">
+        <label for="letter">Guess The Letter!</label>
+        <input type="text" maxlength="1" id="letter" />
+        <input type="button" value="Guess" />
+      </div>
+    </div>
+  </body>
+</html>
